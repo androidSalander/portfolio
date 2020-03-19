@@ -5,4 +5,46 @@
 body {
     background-color: indigo;
     font-family: px_sans_nouveaux;
+    font-size: 8px;
+}
+.github img {
+    width: 48px;
+    height: 48px;
+}
+.special-thanks img {
+    width: 48px;
+    height: 48px;
+}
+p {
+    position: relative;
+    bottom: 10px;
+}
+.start-menu {
+    position: fixed;
+    bottom: 0;
+    background-color: silver; 
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 2px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #4e4e4e;
+}
+button {
+    background-color: silver;
+    color: black;
+    box-shadow: inset 1px 1px #dfdfdf,1px 0 #000,0 1px #000,1px 1px #000;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+button img {
+    position: relative;
+    top: 2px;
 }
