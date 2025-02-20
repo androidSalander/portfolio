@@ -3,9 +3,13 @@
     src: url('fonts/px_sans_nouveaux.ttf');
 }
 body {
-    background-color: indigo;
-    font-family: px_sans_nouveaux;
-    font-size: 8px;
+    background: url('images/neon_cyberpunk_image.png') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image scales dynamically */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensures the full height is covered */
+    width: 100vw; /* Ensures the full width is covered */
+    overflow: hidden; /* Prevents scrolling if unnecessary */
 }
 .github img {
     width: 48px;
