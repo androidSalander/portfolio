@@ -10,12 +10,14 @@ body {
     height: 100vh; /* Ensures the full height is covered */
     width: 100vw; /* Ensures the full width is covered */
     overflow: hidden; /* Prevents scrolling if unnecessary */
+    font-family: px_sans_nouveaux;
+    font-size: 8px;
 }
 .github img {
     width: 48px;
     height: 48px;
 }
-.special-thanks img {
+.idk img {
     width: 48px;
     height: 48px;
 }
