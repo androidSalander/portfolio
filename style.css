@@ -5,8 +5,8 @@
 body {
     background: url('images/neon_cyberpunk_image.png') no-repeat center center fixed;
     background-size: cover; /* Ensures the image scales dynamically */
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     height: 100vh; /* Ensures the full height is covered */
     width: 100vw; /* Ensures the full width is covered */
     overflow: hidden; /* Prevents scrolling if unnecessary */
