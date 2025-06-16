@@ -20,9 +20,9 @@ body {
     height: 100%;
 }
 .icons img {
-    width: 3em;
-    height: auto;
-    max-width: 48px;
+    width: auto;
+    height: 3em;
+    max-height: 48px;
 }
 @media (max-width: 768px) {
     .icons img {
